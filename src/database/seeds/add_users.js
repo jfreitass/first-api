@@ -5,10 +5,9 @@ exports.seed = function(knex) {
     .then(function () {
       // Inserts seed entries
       return knex('tblusers').insert([
-        { iduser:  1},
-        { name: 'Jhonatan'},
-        { idade: 20},
-        { email: 'itjhonatan01@gmail.com'}
+        { name: 'Jhonatan',
+        idade: 20,
+        email: 'itjhonatan01@gmail.com'}
       ]);
     });
 };
