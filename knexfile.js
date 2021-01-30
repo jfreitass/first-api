@@ -6,7 +6,7 @@ module.exports = {
     connection: {
       database: 'users',
       user: 'postgres',
-      password: ''
+      password: 'jhonatan11'
     },
     migrations: {
       tableName: 'knex_migrations',
